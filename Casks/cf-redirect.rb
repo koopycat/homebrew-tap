@@ -1,9 +1,9 @@
 cask "cf-redirect" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.1.0"
-  sha256 arm:   "80ac1ff2021ccb678b25bb8f45ffffcf977a7d69b172ea464fd33f3126494099",
-         intel: "c4163d29eca18187476c19f6eba73544949959e7ca48e938721b37b42c8c1630"
+  version "0.1.1"
+  sha256 arm:   "3467121fe936b10e1301da1d17b16ade5eb97077fdd5673d912a88b32408df3d",
+         intel: "3c6597a4d803a1e802bd71587893c6d4222a693f24720af5c4117f27e4f7aed4"
 
   url "https://github.com/koopycat/cf_redirect_manager/releases/download/v#{version}/cf-redirect_#{version}_darwin_#{arch}.tar.gz"
   name "cf-redirect"
