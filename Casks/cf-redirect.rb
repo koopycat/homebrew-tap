@@ -12,7 +12,7 @@ cask "cf-redirect" do
 
   depends_on macos: :big_sur
 
-  postflight do
+  postflight_steps do
     system_command "/usr/bin/xattr",
                    args: ["-dr", "com.apple.quarantine", staged_path],
                    sudo: false
