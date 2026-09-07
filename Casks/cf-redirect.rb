@@ -11,7 +11,12 @@ cask "cf-redirect" do
   homepage "https://github.com/koopycat/cf_redirect_manager"
 
   depends_on macos: :big_sur
-  quarantine false
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", staged_path],
+                   sudo: false
+  end
 
   livecheck do
     url :url
