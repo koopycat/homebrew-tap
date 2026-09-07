@@ -31,5 +31,3 @@ Upgrade installed formulas with:
 ```sh
 brew upgrade cf-redirect sitemap-check
 ```
-
-> `sitemap-check` becomes available when its next stable release publishes `Formula/sitemap-check.rb` to this tap.
