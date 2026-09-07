@@ -10,7 +10,8 @@ cask "cf-redirect" do
   desc "Safely manage a Cloudflare Bulk Redirect List"
   homepage "https://github.com/koopycat/cf_redirect_manager"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
+  quarantine false
 
   livecheck do
     url :url
