@@ -5,11 +5,11 @@ Homebrew packages for koopycat projects.
 ## Install cf-redirect
 
 ```sh
-brew install --cask koopycat/tap/cf-redirect
+brew install koopycat/tap/cf-redirect
 ```
 
 Upgrade it later with:
 
 ```sh
-brew upgrade --cask cf-redirect
+brew upgrade cf-redirect
 ```
