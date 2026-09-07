@@ -1,15 +1,35 @@
 # koopycat Homebrew tap
 
-Homebrew packages for koopycat projects.
+Homebrew formulas for koopycat command-line projects. The formulas support macOS and Linux on Apple Silicon/ARM64 and Intel/AMD64.
 
-## Install cf-redirect
+## Available projects
+
+| Project | Description | Source |
+| --- | --- | --- |
+| `cf-redirect` | Safely manage a Cloudflare Bulk Redirect List | [`koopycat/cf_redirect_manager`](https://github.com/koopycat/cf_redirect_manager) |
+| `sitemap-check` | Check every URL contained in an XML sitemap | [`koopycat/sitemap_check`](https://github.com/koopycat/sitemap_check) |
+
+## Install
+
+Install a formula directly from this tap:
 
 ```sh
 brew install koopycat/tap/cf-redirect
+brew install koopycat/tap/sitemap-check
 ```
 
-Upgrade it later with:
+Alternatively, add the tap first and then install formulas by name:
 
 ```sh
-brew upgrade cf-redirect
+brew tap koopycat/tap
+brew install cf-redirect
+brew install sitemap-check
 ```
+
+Upgrade installed formulas with:
+
+```sh
+brew upgrade cf-redirect sitemap-check
+```
+
+> `sitemap-check` becomes available when its next stable release publishes `Formula/sitemap-check.rb` to this tap.
