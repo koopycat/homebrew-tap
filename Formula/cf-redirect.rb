@@ -1,29 +1,29 @@
 class CfRedirect < Formula
   desc "Safely manage a Cloudflare Bulk Redirect List"
   homepage "https://github.com/koopycat/cf_redirect_manager"
-  version "0.1.4"
+  version "0.1.5"
 
   on_macos do
     on_arm do
       url "https://github.com/koopycat/cf_redirect_manager/releases/download/v#{version}/cf-redirect_#{version}_darwin_arm64.tar.gz"
-      sha256 "9f92410599c15c1dbdd3b58ae024ea9014ac0f4f01bad358abe80f1e8e7aed1e"
+      sha256 "7eeed43dc6a8b568c2b70f8cb35babcc6fb18ad8d573eeb5d332a66e15246541"
     end
 
     on_intel do
       url "https://github.com/koopycat/cf_redirect_manager/releases/download/v#{version}/cf-redirect_#{version}_darwin_amd64.tar.gz"
-      sha256 "904437f9fb816246ae7f27a667f81c212d6adc338312920db9193f86277f1b37"
+      sha256 "3925037d4c8ffd5d481dcb9d146a21147b91418a98b82b296e66421300bfd578"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/koopycat/cf_redirect_manager/releases/download/v#{version}/cf-redirect_#{version}_linux_arm64.tar.gz"
-      sha256 "11e51bd014034f2892b28a520817d8c36a23963fb5cd2780352edd1efbfeb201"
+      sha256 "99313b10aff7a7f3ad3a07895a048e2bd56c4f71ff8f807f440a4f0f96c3c2e7"
     end
 
     on_intel do
       url "https://github.com/koopycat/cf_redirect_manager/releases/download/v#{version}/cf-redirect_#{version}_linux_amd64.tar.gz"
-      sha256 "74f738f2019be96667cf7bf8e57efddf51ba4a5be401e75f626ba77592f9829f"
+      sha256 "9e325029104d0a128299e57cfa472329c01c35d77534d6e7144ed8a097ea5dce"
     end
   end
 
