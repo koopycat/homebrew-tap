@@ -1,29 +1,29 @@
 class SitemapCheck < Formula
   desc "Check every URL contained in an XML sitemap"
   homepage "https://github.com/koopycat/sitemap_check"
-  version "0.4.1"
+  version "0.4.2"
 
   on_macos do
     on_arm do
       url "https://github.com/koopycat/sitemap_check/releases/download/v#{version}/sitemap_check_#{version}_darwin_arm64.tar.gz"
-      sha256 "73fd5aff1025b2cdb924d6e619d5875e66d7201614e119e709cf90e829bf8ce8"
+      sha256 "41a8e22f46eb2e9c9c782ad1d5f27a3c3b39e68a2025f160e2da1ba14dc0e65d"
     end
 
     on_intel do
       url "https://github.com/koopycat/sitemap_check/releases/download/v#{version}/sitemap_check_#{version}_darwin_amd64.tar.gz"
-      sha256 "ac665de15069239e19614c15ef299c3836e1e9d0c31c7be59bf777d0ac66abed"
+      sha256 "add3324988eee257fd34becb89e17c55c94dfad67717e3cf760f89950a3bce30"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/koopycat/sitemap_check/releases/download/v#{version}/sitemap_check_#{version}_linux_arm64.tar.gz"
-      sha256 "5886075518ba568ba420075784f653b65d81714657924ac6c4e0f3066e0f6324"
+      sha256 "6103a98cf4d2bff61e5edd9f06b5fa316976577eca180979075b473d6f64d3be"
     end
 
     on_intel do
       url "https://github.com/koopycat/sitemap_check/releases/download/v#{version}/sitemap_check_#{version}_linux_amd64.tar.gz"
-      sha256 "1a896e6e11e67bcbd7d3c69b5d171a6809f0b1f9092aff03d16c90c4cb70b1aa"
+      sha256 "cb84ae0de09357c8cec1fd376175b66e96b7f7ed8e031f6a59771b1718d630e1"
     end
   end
 
