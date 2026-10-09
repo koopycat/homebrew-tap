@@ -5,25 +5,25 @@ class HevyAxi < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/koopycat/hevy-connect/releases/download/v0.1.0/hevy-axi_0.1.0_darwin_arm64.tar.gz"
-      sha256 "731f0af29ad2e785a51a9a403841343d858e8b2faf5a9ce6ed921f533fe77376"
+      url "https://github.com/koopycat/hevy-connect/releases/download/v0.2.0/hevy-axi_0.2.0_darwin_arm64.tar.gz"
+      sha256 "4f3c1fa712717cc7d46265ccac1166700b6a225336069595df62b26b982692e2"
     end
 
     on_intel do
-      url "https://github.com/koopycat/hevy-connect/releases/download/v0.1.0/hevy-axi_0.1.0_darwin_amd64.tar.gz"
-      sha256 "91c420fe8f3e15a13f811c048563a217eb541ef49635a864350be3c45dffe1dd"
+      url "https://github.com/koopycat/hevy-connect/releases/download/v0.2.0/hevy-axi_0.2.0_darwin_amd64.tar.gz"
+      sha256 "0f5534498bbd8a95343325f9d4521ba34b42b4228725e9d751aced409d31c9ee"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/koopycat/hevy-connect/releases/download/v0.1.0/hevy-axi_0.1.0_linux_arm64.tar.gz"
-      sha256 "f1377c8ecb471919a368c6b9d1e0826e4c8bfb4f74ae84e15f28769b335129e8"
+      url "https://github.com/koopycat/hevy-connect/releases/download/v0.2.0/hevy-axi_0.2.0_linux_arm64.tar.gz"
+      sha256 "020a64d8db57070ac58ff9d3019c66308d75625b283f8b5097322e8e5c3a0789"
     end
 
     on_intel do
-      url "https://github.com/koopycat/hevy-connect/releases/download/v0.1.0/hevy-axi_0.1.0_linux_amd64.tar.gz"
-      sha256 "7f29e8da3ab46cef292070f321f64f29e82e6e7a7580f249d36c727f1f2c08ea"
+      url "https://github.com/koopycat/hevy-connect/releases/download/v0.2.0/hevy-axi_0.2.0_linux_amd64.tar.gz"
+      sha256 "5be33d9d33a492c9b66881b085ee6bc7f1df0eb6367e563a00225daa7095b2cd"
     end
   end
 
